@@ -38,6 +38,9 @@ spec:
         role: frontend
     spec:
       containers:
+      - envFrom:
+        - configMapRef:
+            name: parksmap-data
       - image: quay.io/openshiftroadshow/parksmap@sha256:89d1e324846cb431df9039e1a7fd0ed2ba0c51aafbae73f2abd70a83d5fa173b
         imagePullPolicy: IfNotPresent
         name: parksmap
