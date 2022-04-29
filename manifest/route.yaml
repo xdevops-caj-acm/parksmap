@@ -9,7 +9,6 @@ metadata:
     role: frontend
   name: parksmap
 spec:
-  host: parksmap-will-test.apps.ocpdemo.sandbox656.opentlc.com
   port:
     targetPort: 8080-tcp
   tls:
