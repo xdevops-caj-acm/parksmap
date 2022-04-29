@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  greeting: hi
+  message: fenchang2
+kind: ConfigMap
+metadata:
+  name: parksmap-data

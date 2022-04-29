@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
-  greeting: hello
-  message: development world
+  greeting: hi
+  message: danyuan1-2
 kind: ConfigMap
 metadata:
   name: parksmap-data
