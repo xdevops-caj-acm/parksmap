@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  greeting: hello
+  message: BB location
+kind: ConfigMap
+metadata:
+  name: parksmap-data
