@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
-  greeting: hello
-  message: world
+  greeting: hi
+  message: test world
 kind: ConfigMap
 metadata:
   name: parksmap-data
