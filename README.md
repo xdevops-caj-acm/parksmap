@@ -8,7 +8,7 @@
 quay.io/openshiftroadshow/parksmap:latest
 ```
 
-## Create apply via commands:
+## Create application via commands:
 ```bash
 # create project
 oc new-project will-test
