@@ -1,5 +1,5 @@
 resources:
 - deployment.yaml
 - service.yaml
-- configmap-common.yaml
+- configmap.yaml
 - route.yaml
