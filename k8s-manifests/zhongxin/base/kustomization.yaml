@@ -9,5 +9,5 @@ resources:
 - route.yaml
 images:
 - name: quay.io/openshiftroadshow/parksmap
-  newName: quay.io/openshiftroadshow/parksmap
+  newName: quay.io/williamsrlin/parksmap
   newTag: latest
