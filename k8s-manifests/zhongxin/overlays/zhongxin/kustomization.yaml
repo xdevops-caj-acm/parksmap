@@ -2,3 +2,12 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - configmap.yaml
+configMapGenerator:
+- name: parksmap-data-2
+  files:
+  - application.properties
+secretGenerator:
+- name: parksmap-secret
+  literals:
+  - username=test
+  - password=test123

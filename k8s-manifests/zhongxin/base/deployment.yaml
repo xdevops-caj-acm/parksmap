@@ -50,6 +50,18 @@ spec:
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /data
+          name: data
+        - mountPath: /secrets
+          name: password
+      volumes:
+      - name: data
+        configMap:
+          name: parksmap-data-2
+      - name: password
+        secret:
+          secretName: parksmap-secret
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler

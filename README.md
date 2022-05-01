@@ -26,3 +26,8 @@ oc label deployment parksmap "app.kubernetes.io/part-of"=workshop "app.openshift
 oc create route edge parksmap --service=parksmap
 
 ```
+
+## Kustomize
+
+- <https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/>
+- <https://github.com/kubernetes-sigs/kustomize>
