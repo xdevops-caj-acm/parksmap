@@ -1,0 +1,21 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  annotations:
+    apps.open-cluster-management.io/deployables: 'gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-deployment,gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-route,gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-data-configmap,gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-data-shared-bf569m77b6-configmap,gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-secret-secret,gaolan-zhongxin/parksmap-zhongxin-subscription-1-k8s-manifests-zhongxin-overlays-zhongxin-parksmap-service'
+    apps.open-cluster-management.io/git-branch: main
+    apps.open-cluster-management.io/git-path: k8s-manifests/zhongxin/overlays/zhongxin
+    apps.open-cluster-management.io/reconcile-option: merge
+  labels:
+    app: parksmap-zhongxin
+    app.kubernetes.io/part-of: parksmap-zhongxin
+    apps.open-cluster-management.io/reconcile-rate: medium
+  name: parksmap-zhongxin-subscription-1
+  namespace: gaolan-zhongxin
+spec:
+  channel: ggithubcom-xdevops-caj-acm-parksmap-ns/ggithubcom-xdevops-caj-acm-parksmap
+  placement:
+    placementRef:
+      kind: PlacementRule
+      name: parksmap-zhongxin-placement-1
+  secondaryChannel: ''
