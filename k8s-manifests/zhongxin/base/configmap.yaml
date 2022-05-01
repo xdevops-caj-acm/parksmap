@@ -5,4 +5,4 @@ data:
   year: "2022"
 kind: ConfigMap
 metadata:
-  name: parksmap-common
+  name: parksmap-data
