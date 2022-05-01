@@ -1,14 +1,8 @@
-configMapGenerator:
-- name: parksmap-data-shared
-  files:
-  - application.properties
+bases:
+- ../../base
 resources:
 - deployment.yaml
 - service.yaml
 - configmap.yaml
 - secret.yaml
 - route.yaml
-images:
-- name: quay.io/openshiftroadshow/parksmap
-  newName: quay.io/williamsrlin/parksmap
-  newTag: latest
