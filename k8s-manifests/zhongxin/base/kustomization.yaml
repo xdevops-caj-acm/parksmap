@@ -6,7 +6,6 @@ resources:
 - deployment.yaml
 - service.yaml
 - configmap.yaml
-- configmap-2.yaml
 - secret.yaml
 - route.yaml
 images:

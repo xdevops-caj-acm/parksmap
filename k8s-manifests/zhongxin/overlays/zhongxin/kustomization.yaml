@@ -2,5 +2,4 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - configmap.yaml
-- configmap-2.yaml
 - secret.yaml
