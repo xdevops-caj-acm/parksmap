@@ -4,16 +4,9 @@ resources:
 - deployment.yaml
 - service.yaml
 - configmap.yaml
+- configmap-2.yaml
+- secret.yaml
 - route.yaml
-configMapGenerator:
-- name: parksmap-data-2
-  files:
-  - application.properties
-secretGenerator:
-- name: parksmap-secret
-  literals:
-  - username=admin
-  - password=admin123
 images:
 - name: quay.io/openshiftroadshow/parksmap
   newName: quay.io/openshiftroadshow/parksmap

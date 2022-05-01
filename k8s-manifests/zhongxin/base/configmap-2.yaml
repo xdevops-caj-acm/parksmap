@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: parksmap-data-2
+data:
+  application.properties: |-
+    greeting=hello
+    message=zhongxin
+    year=2022
