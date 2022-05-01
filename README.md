@@ -31,3 +31,7 @@ oc create route edge parksmap --service=parksmap
 
 - <https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/>
 - <https://github.com/kubernetes-sigs/kustomize>
+
+## ACM Lab
+
+- <https://github.com/xdevops-caj-acm/rhacmgitopslab>
