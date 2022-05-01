@@ -1,0 +1,8 @@
+configMapGenerator:
+- name: parksmap-data-shared
+  files:
+  - application.properties
+images:
+- name: quay.io/openshiftroadshow/parksmap
+  newName: quay.io/williamsrlin/parksmap
+  newTag: latest
