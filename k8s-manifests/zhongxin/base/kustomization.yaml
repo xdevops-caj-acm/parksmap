@@ -6,6 +6,6 @@ resources:
 - secret.yaml
 - route.yaml
 images:
-- name: quay.io/openshiftroadshow/parksmap
-  newName: quay.io/williamsrlin/parksmap
+- name: quay.io/williamsrlin/parksmap
+  newName: quay.io/openshiftroadshow/parksmap
   newTag: latest
