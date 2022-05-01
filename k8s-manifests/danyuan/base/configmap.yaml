@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  greeting: hi
+  message: danyuan
+kind: ConfigMap
+metadata:
+  name: parksmap-data
