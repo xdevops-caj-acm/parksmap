@@ -1,3 +1,7 @@
+configMapGenerator:
+- name: parksmap-data-shared
+  files:
+  - application.properties
 resources:
 - deployment.yaml
 - service.yaml

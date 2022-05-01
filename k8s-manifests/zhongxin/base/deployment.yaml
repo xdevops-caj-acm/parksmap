@@ -58,7 +58,7 @@ spec:
       volumes:
       - name: data
         configMap:
-          name: parksmap-data-2
+          name: parksmap-data-shared
       - name: password
         secret:
           secretName: parksmap-secret
