@@ -3,5 +3,6 @@ configMapGenerator:
   files:
   - application.properties
 images:
-- name: quay.io/williamsrlin/parksmap:1.0
-  newName: quay.io/williamsrlin/parksmap:1.1
+- name: quay.io/williamsrlin/parksmap
+  newName: quay.io/williamsrlin/parksmap
+  newTag: '1.1'
