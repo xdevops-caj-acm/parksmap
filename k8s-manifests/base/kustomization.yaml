@@ -2,7 +2,7 @@ configMapGenerator:
 - name: parksmap-data-shared
   files:
   - application.properties
-images:
-- name: quay.io/williamsrlin/parksmap
-  newName: quay.io/williamsrlin/parksmap
-  newTag: '1.2'
+# images:
+# - name: quay.io/williamsrlin/parksmap
+#   newName: quay.io/williamsrlin/parksmap
+#   newTag: '1.2'
