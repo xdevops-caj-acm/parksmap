@@ -9,4 +9,4 @@ resources:
 images:
 - name: quay.io/williamsrlin/parksmap
   newName: quay.io/williamsrlin/parksmap
-  newTag: '1.1'
+  newTag: '1.2'
