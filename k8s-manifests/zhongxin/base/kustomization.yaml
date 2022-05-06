@@ -6,7 +6,7 @@ resources:
 - configmap.yaml
 - secret.yaml
 - route.yaml
-images:
-- name: quay.io/williamsrlin/parksmap
-  newName: quay.io/williamsrlin/parksmap
-  newTag: '1.1'
+# images:
+# - name: quay.io/williamsrlin/parksmap
+#   newName: quay.io/williamsrlin/parksmap
+#   newTag: '1.1'
