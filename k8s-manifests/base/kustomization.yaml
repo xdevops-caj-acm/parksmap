@@ -3,6 +3,6 @@ configMapGenerator:
   files:
   - application.properties
 images:
-- name: quay.io/williamsrlin/parksmap
+- name: quay.io/openshiftroadshow/parksmap
   newName: quay.io/williamsrlin/parksmap
   newTag: "1.1"
