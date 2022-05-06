@@ -2,8 +2,7 @@ configMapGenerator:
 - name: parksmap-data-shared
   files:
   - application.properties
-# images 级联时有时候不支持？
-# images:
-# - name: quay.io/williamsrlin/parksmap
-#   newName: quay.io/williamsrlin/parksmap
-#   newTag: '1.1'
+images:
+- name: quay.io/williamsrlin/parksmap
+  newName: quay.io/williamsrlin/parksmap
+  newTag: '1.0'
