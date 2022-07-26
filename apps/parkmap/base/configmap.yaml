@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  greeting: hello
+  message: base
+  year: "2022"
+kind: ConfigMap
+metadata:
+  name: parksmap-data
+
